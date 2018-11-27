@@ -1,3 +1,5 @@
+#include"luminaria.h"
+
 int luminaria::leitura_tensao()
 {
 

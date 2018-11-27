@@ -1,8 +1,7 @@
-include"luminaria.h"
+#include"luminaria.h"
 
-float vetCorrente[720];
-double maior_Valor = 0;
-double valor_Corrente = 0;
+float corrente;
+luminaria leitura;
 
 void setup()
 {
@@ -12,8 +11,8 @@ void setup()
 
 void loop()
 {
-  valor_Corrente=leitura_tensao();
+  corrente=leitura.leitura_tensao();
   Serial.print("Corrente = ");
-  Serial.print(valor_Corrente);
+  Serial.print(corrente);
   Serial.println(" A");
 }
