@@ -1,0 +1,4 @@
+﻿# Arduino IDE Keywords for Syntax Coloring
+
+# Keyword for class functions
+leitura_tensao	KEYWORD2
