@@ -10,8 +10,8 @@ class luminaria
          float leitura_tensao();
 
   private:
-          float vetCorrente[720];     // STM32
-          //float vetCorrente[320];   // Arduino Uno
+          //float vetCorrente[720];   // STM32
+          float vetCorrente[320];     // Arduino Uno
           float maior_Valor = 0;
           float valor_Corrente = 0;
 };
